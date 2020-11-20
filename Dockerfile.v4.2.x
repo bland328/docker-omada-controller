@@ -11,8 +11,8 @@ RUN \
   cd /tmp &&\
   wget -nv "https://static.tp-link.com/2020/202011/20201110/Omada_SDN_Controller_v4.2.4_linux_x64.tar.gz" &&\
   echo "**** Extract and Install Omada Controller ****" &&\
-  tar zxvf Omada_SDN_Controller_v4.24_linux_x64.tar.gz &&\
-  rm Omada_SDN_Controller_v4.24_linux_x64.tar.gz &&\
+  tar zxvf Omada_SDN_Controller_v4.2.4_linux_x64.tar.gz &&\
+  rm Omada_SDN_Controller_v4.2.4_linux_x64.tar.gz &&\
   cd Omada_SDN_Controller_* &&\
   mkdir /opt/tplink/EAPController -vp &&\
   cp bin /opt/tplink/EAPController -r &&\
